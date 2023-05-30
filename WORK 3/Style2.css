@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+*{ /*Reseteo de la web*/
+    padding: 0px; /*Relleno (Espacio entre el contenido y sus bordes)*/
+    margin: 0px; /*Margenes (Espacio alrededor de un elemento)*/
+    font-family: 'Nunito', sans-serif;
+}
+html{
+    background-color: rgb(183, 183, 183); /*Color de la pagina*/
+}
+body{
+    width: 1450px; /*Margen de la maqueta*/
+    margin: auto; /*Auto = Maqueta centrada*/
+    margin-top: 20px; /*Margen de la parte de arriba*/
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.menu{
+    height: 50px;
+    width: 1450px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.titulo{
+    color: black;
+    overflow: hidden;
+    margin-left: 650px;
+    font-size: 120%;
+    position: relative;
+    top: 15px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.Izquierda{
+    height: 50px;
+    width: 550px;
+    position: relative;
+    top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.instrucciones{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    display: flex;
+    top: -35px;
+    margin-left: 70px;
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+.lugares{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    display: flex;
+    top: -75px;
+    margin-left: 300px;
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+.mapa{
+    display: flex;
+    position: relative;
+    height: 650px;
+    width: 870px;
+    top: -710px;
+    margin-left: 580px;
+}
+.ins{
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+    margin-left: 20px;
+    cursor: pointer;
+}
+.lug{
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+    margin-left: 30px;
+    cursor: pointer;
+}
+.izquierda2{
+    height: 590px;
+    width: 550px;
+    position: relative;
+    top: -60px;
+    background-color: rgb(255, 255, 255);
+}
+.carro{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+    background-color: rgb(172, 172, 172);
+}
+.person{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: -20px;
+    margin-left: 150px;
+    background-color: rgb(172, 172, 172);
+}
+.carrop{
+    height: 40px;
+    width: 50px;
+    position: relative;
+    margin-left: 25px;
+    top: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.personp{
+    height: 40px;
+    width: 50px;
+    position: relative;
+    margin-left: 25px;
+    top: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.ubi{
+    position: relative;
+    margin-left: 20px;
+    width: 500px;
+}
+.ubic{
+    position: relative;
+    margin-left: 20px;
+    width: 500px;
+    top: 10px;
+}
+.comentario{
+    color:  rgb(85, 85, 242);
+    margin-left: 20px;
+    font-size: 80%;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+.como{
+    height: 40px;
+    width: 100px;
+    background-color: rgba(64, 64, 224, 0.927);
+    position: relative;
+    margin-left: 420px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.text{
+    font-size: 80%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    top: 10px;
+}
+.rutas{
+    color:  rgb(68, 66, 66);
+    margin-left: 20px;
+    font-size: 100%;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+.ruta1{
+    height: 70px;
+    width: 500px;
+    background-color: rgba(198, 198, 206, 0.927);
+    position: relative;
+    top: 60px;
+    margin-left: 20px;
+}
+.ruta2{
+    height: 70px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.927);
+    position: relative;
+    top: 60px;
+    margin-left: 20px;
+}
+.ruta3{
+    height: 70px;
+    width: 500px;
+    background-color: rgba(198, 198, 206, 0.927);
+    position: relative;
+    top: 60px;
+    margin-left: 20px;
+}
+.ruta11{
+    font-size: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    top: 30px;
+}
+.ruta22{
+    font-size: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    top: 30px;
+}
+.ruta33{
+    font-size: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    top: 30px;
+}

@@ -1,0 +1,182 @@
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+*{ /*Reseteo de la web*/
+    padding: 0px; /*Relleno (Espacio entre el contenido y sus bordes)*/
+    margin: 0px; /*Margenes (Espacio alrededor de un elemento)*/
+}
+html{
+    background-color: rgb(167, 162, 162); /*Color de la pagina*/
+}
+body{
+    width: 1000px; /*Margen de la maqueta*/
+    margin: auto; /*Auto = Maqueta centrada*/
+    margin-top: 20px; /*Margen de la parte de arriba*/
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+nav{ /*Inicio del cuerpo de la clase nav*/
+    height: 100px;
+    background-color: rgba(10, 190, 10, 0.818);
+}
+.box-1{ /*Rectangulo 1*/
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    margin-left: 810px;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    top: 20px; /*Mover el rectangulo hacia abajo*/
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+.box-2{ /*Rectangulo 2*/
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    margin-left: 620px;
+    margin-top: -40px;
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+.box-3{ /*Rectangulo 3*/
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    margin-left: 430px;
+    margin-top: -60px;
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+.box-4{ /*Rectangulo 4*/
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    margin-left: 240px;
+    margin-top: -60px;
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+.box-5{ /*Rectangulo 5*/
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: -60px;
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+/*Final del cuerpo de la clase nav*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+header{ /*Inicio del cuerpo de la clase header*/
+    height: 300px;
+    background-color: blue;
+}
+.banner{
+    width: 800px;
+    height: 250px;
+    background-color: white;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 130px;
+    height: 70px;
+    background-color: white;
+    margin-left: 850PX;
+    position: relative;
+    top: -230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    width: 130px;
+    height: 70px;
+    background-color: white;
+    margin-left: 850PX;
+    position: relative;
+    top: -210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 130px;
+    height: 70px;
+    background-color: white;
+    margin-left: 850PX;
+    position: relative;
+    top: -190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} /*FInal del cuerpo de la clase header*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+main{ /*Inicio del cuerpo de la clase main*/
+    height: 500px;
+    background-color: gray;
+}
+.aside{
+    width: 200px;
+    height: 430px;
+    background-color: white;
+    margin-left: 30px;
+    position: relative;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article{
+    width: 500px;
+    height: 430px;
+    background-color: white;
+    margin-left: 250px;
+    position: relative;
+    top: -390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-2{
+    width: 200px;
+    height: 430px;
+    background-color: white;
+    margin-left: 770px;
+    position: relative;
+    top: -820px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} /*Final del cuerpo de la clase main*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+footer{ /*Inicio del cuerpo de la clase footer*/
+    height: 50px;
+    background-color: yellow;
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+} /*Final del cuerpo de la clase footer*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+li{
+    list-style: none;
+}
+.Maqueta-2{
+    width: 190px;
+    height: 80px;
+    background-color: white;
+    margin-left: 1100px;
+    position: relative;
+    top: -550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 100px;
+}

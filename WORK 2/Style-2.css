@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+*{ /*Reseteo de la web*/
+    padding: 0px; /*Relleno (Espacio entre el contenido y sus bordes)*/
+    margin: 0px; /*Margenes (Espacio alrededor de un elemento)*/
+}
+html{
+    background-color: rgb(167, 162, 162); /*Color de la pagina*/
+}
+body{
+    width: 750px; /*Margen de la maqueta*/
+    margin: auto; /*Auto = Maqueta centrada*/
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+header{ /*Inicio del cuerpo del header*/
+    height: 250px;
+    background-color: rgba(10, 76, 190, 0.818);
+}
+.banner{ /*Banner*/
+    width: 500px;
+    height: 230px;
+    background-color: white;
+    margin-left: 15px;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    top: 10px; /*Mover el rectangulo hacia abajo*/
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+.logo{ /*Logo*/
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    margin-left: 530px;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    top: -220px; /*Mover el rectangulo hacia abajo*/
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+} /*Final del cuerpo del header*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+nav{ /*Inicio del cuerpo del nav*/
+    height: 50px;
+    background-color: rgba(38, 165, 7, 0.818);
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+main{ /*Inicio del cuerpo del main*/
+    height: 400px;
+    background-color: gray;
+}
+.article{ /*Banner*/
+    width: 450px;
+    height: 375px;
+    background-color: white;
+    margin-left: 15px;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    top: 10px; /*Mover el rectangulo hacia abajo*/
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+.aside{ /*Logo*/
+    width: 250px;
+    height: 375px;
+    background-color: white;
+    margin-left: 480px;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    top: -365px; /*Mover el rectangulo hacia abajo*/
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+} /*Final del cuerpo del main*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    height: 50px;
+    background-color: yellow;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    display: flex; /*Crea el contenedor flexible*/
+    align-items: center; /*Alineacion vertical para el contenedor*/
+    justify-content: center; /*Para centrarlo en medio*/
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+li{
+    list-style: none;
+}
+.Maqueta-2{
+    width: 190px;
+    height: 80px;
+    background-color: white;
+    margin-left: 800px;
+    position: relative;
+    top: -550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 100px;
+}

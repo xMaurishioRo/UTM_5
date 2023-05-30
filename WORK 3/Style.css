@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+*{ /*Reseteo de la web*/
+    padding: 0px; /*Relleno (Espacio entre el contenido y sus bordes)*/
+    margin: 0px; /*Margenes (Espacio alrededor de un elemento)*/
+    font-family: 'Nunito', sans-serif;
+}
+html{
+    background-color: rgb(183, 183, 183); /*Color de la pagina*/
+}
+body{
+    width: 1000px; /*Margen de la maqueta*/
+    margin: auto; /*Auto = Maqueta centrada*/
+    margin-top: 40px; /*Margen de la parte de arriba*/
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+main{ /*Margenes del header y color*/
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+.ColorBlue{ /*Margenes del header y color*/
+    width: 300px;
+    height: 200px;
+    background-color: rgb(85, 85, 242);
+    margin-top: -1200px;
+}
+.ColorGray{ /*Margenes del header y color*/
+    width: 300px;
+    height: 1000px;
+    background-color: rgb(132, 132, 132);
+}
+.De{ /*Etiqueta de la clase De, el cual edita el texto*/
+    display: flex; /*Crea el contenedor flexible*/
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    justify-content: center; /*Para centrarlo en medio*/
+    font-size: 350%;
+    position: relative;
+    top: 50px;
+    margin-left:350px;
+}
+.titulo-1{
+    color:  rgb(85, 85, 242);
+    overflow: hidden;
+    margin-left: 350px;
+    font-size: 120%;
+    position: relative;
+    top: 100px;
+}
+.titulo-2{
+    color:  rgb(85, 85, 242);
+    overflow: hidden;
+    margin-left: 350px;
+    font-size: 120%;
+    position: relative;
+    top: 450px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.Espacio-1{
+    width: 600px;
+    height: 5px;
+    background-color: rgb(85, 85, 242);
+    position: relative;
+    top: 50px;
+    margin-left: 350px;
+}
+.Espacio-1-1{
+    width: 70px;
+    height: 15px;
+    background-color: rgb(85, 85, 242);
+    position: relative;
+    top: -5px;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+.resumen{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 45px;
+}
+/* Historial laboral */
+.fecha1{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.trabajo1-titulo{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.lista1{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.lista2{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.fecha2{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.trabajo2-titulo{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.lista3{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.lista4{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+.lista5{
+    color:  black;
+    text-align: justify;
+    font-size: 120%;
+    position: relative;
+    top: 70px;
+    margin-left: -500px;
+    right: -500px;
+}
+
+
+.telefono{ /*Titulo Telefono*/
+    color: white;
+    text-align: justify;
+    position: relative;
+    font-size: 100%;
+    margin-left: 50px;
+    top: -285px;
+}
+.email-1{ /*Titulo Email*/
+    color: white;
+    text-align: justify;
+    position: relative;
+    font-size: 100%;
+    margin-left: 50px;
+    top: -260px;
+}
+.ubicacion-1{ /*Titulo Ubicacion*/
+    color: white;
+    text-align: justify;
+    position: relative;
+    font-size: 100%;
+    margin-left: 50px;
+    top: -230px;
+}
+.Espacio-2{
+    width: 600px;
+    height: 5px;
+    background-color: rgb(85, 85, 242);
+    position: relative;
+    top: 400px;
+    margin-left: 350px;
+}
+.Espacio-2-2{
+    width: 70px;
+    height: 17px;
+    background-color: rgb(85, 85, 242);
+    position: relative;
+    top: -8px;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+
+.espacio-4{
+    width: 250px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+    top: 320px;
+    margin-left: 20px;
+}
+.espacio-4-4{
+    width: 50px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    top: -125px;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+.titulo4-1{ /*Titulo Aptitudes*/
+    color: white;
+    overflow: hidden;
+    margin-left: 0px;
+    font-size: 100%;
+    position: relative;
+    top: -180px;
+}
+.list-1{
+    color: white;
+    text-align: justify;
+    position: relative;
+    font-size: 100%;
+    margin-left: 0px;
+    top: -165px;
+}
+.espacio-5{
+    width: 250px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+    top: 500px;
+    margin-left: 20px;
+}
+.espacio-5-5{
+    width: 50px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    top: -5px;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+.titulo5-1{ /*Titulo IDIOMAS*/
+    color: white;
+    overflow: hidden;
+    margin-left: 0px;
+    font-size: 100%;
+    position: relative;
+    top: 30px;
+}
+.list-2{
+    color: white;
+    text-align: justify;
+    position: relative;
+    font-size: 100%;
+    margin-left: -50px;
+    top: 40px;
+    right: -50px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.Photo{ /*Diseño de la imgen*/
+    width: 700px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    top: -255px;
+    margin-left: -190px;
+    border-color: black;
+}
+.Marco{ /*Diseño del marco*/
+    width: 261px;
+    height: 274px;
+    background-color: black;
+    border-radius: 600px;
+    position: absolute;
+    top: 110px;
+    margin-left: 20px;
+}
+.phone{ /*Diseño del icono del telefono*/
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    top: -160px;
+}
+.email{ /*Diseño del icono del email*/
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    top: -150px;
+}
+.ubication{ /*Diseño del icono del ubicacion*/
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    top: -140px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
