@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+*{ /*Reseteo de la web*/
+    padding: 0px; /*Relleno (Espacio entre el contenido y sus bordes)*/
+    margin: 0px; /*Margenes (Espacio alrededor de un elemento)*/
+}
+html{
+    background-color: rgb(11, 11, 53); /*Color de la pagina*/
+}
+body{
+    width: 1000px; /*Margen de la maqueta*/
+    margin: auto; /*Auto = Maqueta centrada*/
+    margin-top: 20px; /*Margen de la parte de arriba*/
+}
+/* ----------------------------------------------------------------------------------------- */
+.titulo{
+    color:  white;
+    overflow: hidden;
+    margin-left: 200px;
+    font-size: 300%;
+    position: relative;
+    top: 100px;
+}
+.boton{
+    width: 400px;
+    height: 30px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 50px;
+    align-items: center;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    top: 100px; /*Mover el rectangulo hacia abajo*/
+    display: flex; /*Crea el contenedor flexible*/
+    justify-content: center; /*Para centrarlo en medio*/
+    margin-left: 300px;
+}
+.nombre{
+    color:  white;
+    overflow: hidden;
+    margin-left: 450px;
+    font-size: 200%;
+    position: relative;
+    top: 100px;
+}
+#estilo{
+    background-color: white;
+    width: 400px;
+    height: 30px;
+    border-radius: 50px;
+    align-items: center;
+    position: relative; /*Mantiene la posicion en la que se encuentra reservada, lo que permite desplazarlo como gustes*/
+    top: 100px; /*Mover el rectangulo hacia abajo*/
+    display: flex; /*Crea el contenedor flexible*/
+    justify-content: center; /*Para centrarlo en medio*/
+    margin-left: 300px;
+}
+.umarun{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+}
